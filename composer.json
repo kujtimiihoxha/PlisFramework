@@ -1,0 +1,18 @@
+{
+    "name": "kujtimiihoxha/plis",
+    "description": "Front-end made easy",
+    "keywords": ["plis"],
+    "authors": [
+        {
+            "name": "Kujtim Hoxha",
+            "email": "kujtimii.h@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "KujtimiiHoxha\\": "src/KujtimiiHoxha"
+        }
+    }
+}

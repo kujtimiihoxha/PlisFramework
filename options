@@ -1,0 +1,7 @@
+options
+    ->attributes=>[]
+    ->removeAttributes=>[]
+    ->id=>"theID"
+    -prependChildren=>Node
+    ->children=>NODE
+    ->htmlCode=>"<div></div>"
