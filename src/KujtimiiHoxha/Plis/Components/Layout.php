@@ -25,7 +25,7 @@ class Layout extends Html
         parent::__construct($options['html']);
     }
     public function construct(){
-        $config=include(dirname(__DIR__).'\config.php');
+        $config=include(dirname(__DIR__).'/config.php');
         foreach($config['css'] as $styleSheet){
             $this->addStyleSheet($styleSheet);
         }
